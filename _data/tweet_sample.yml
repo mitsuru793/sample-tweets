@@ -1,0 +1,63 @@
+-
+  category: テキスト
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/880860689622999040
+      title: 絵文字が1文字。
+    -
+      url: https://twitter.com/dummy_samples/status/880861864942477312
+      title: 半角数字が1文字。
+    -
+      url: https://twitter.com/dummy_samples/status/880866433130835968
+      title: 半角数字が140文字
+    -
+      url: https://twitter.com/dummy_samples/status/880866818193211392
+      title: 全角数字が140文字
+-
+  category: URL
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/880862117884084225
+      title: 末尾にスラッシュがあるurl(20文字)が1つ。
+    -
+      url: https://twitter.com/dummy_samples/status/880864224578125825
+      title: 末尾にスラッシュがないurl(19文字)が1つ。
+    -
+      url: https://twitter.com/dummy_samples/status/880862117884084225
+      title: 同じurl(20文字)が2つ、カンマ区切り。
+    -
+      url: https://twitter.com/dummy_samples/status/880862117884084225
+      title: 同じurl(20文字)が2つ、半角スペース区切り。
+-
+  cateogy: リツイート
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/880865408365903872
+      title: 自分のテキストのみのツイートを、テキストのみで引用リツイート。
+-
+  category: メンション
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/880865965692526592
+      title: 自分に対してメンション。テキストのみ。
+-
+  category: 画像
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/880872011999858688
+      title: GIF画像を1個添付。テキストはなし。画像情報(1920x1080 72 ppi sample.gif)
+    -
+      url: https://twitter.com/dummy_samples/status/880872058309140480
+      title: jpeg画像を1個添付。テキストはなし。画像情報(1920x1080 72 ppi sample.jpg)
+    -
+      url: https://twitter.com/dummy_samples/status/880872127334760448
+      title: png画像を1個添付。テキストはなし。画像情報(1920x1080 72 ppi sample.png)
+-
+  category: 動画
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/881062213896642561
+      title: GIF動画を1個添付。テキストはなし。動画情報(1920x1080 5秒 sample.gif)
+    -
+      url: https://twitter.com/dummy_samples/status/881070367405514752
+      title: MP4動画を1個添付。テキストはなし。動画情報(1920x1080 5秒 sample.mp4)
