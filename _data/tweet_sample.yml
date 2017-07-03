@@ -24,10 +24,45 @@
       title: 末尾にスラッシュがないurl(19文字)が1つ。
     -
       url: https://twitter.com/dummy_samples/status/880862117884084225
-      title: 同じurl(20文字)が2つ、カンマ区切り。
+      title: 同じurl(20文字)が2つ。カンマ区切り。
     -
       url: https://twitter.com/dummy_samples/status/880862117884084225
-      title: 同じurl(20文字)が2つ、半角スペース区切り。
+      title: 同じurl(20文字)が2つ。半角スペース区切り。
+    -
+      url: https://twitter.com/dummy_samples/status/881784370998026240
+      title: 違うurlが2つ。半角スペース区切り
+    -
+      url: https://twitter.com/dummy_samples/status/881784473720717312
+      title: 違うurlが2つ。改行区切り
+    -
+      url: https://twitter.com/dummy_samples/status/881783648353042432
+      title: プレーンテキストの後にurlが1つ。半角スペース区切り。
+    -
+      url: https://twitter.com/dummy_samples/status/881783899134742529
+      title: プレーンテキストの後に同じurlが2つ。半角スペース区切り。
+    -
+      url: https://twitter.com/dummy_samples/status/881788527003947008
+      title: urlが1個と、jpeg画像を1個添付。
+    -
+      url: https://twitter.com/dummy_samples/status/881788737155244032
+      title: 違うurlが2個と、jpeg画像を1個添付。
+    -
+      url: https://twitter.com/dummy_samples/status/881788930474909696
+      title: 違うurlが2個と、gif画像、jpeg画像を1個ずつ添付。
+    - url: https://twitter.com/dummy_samples/status/881789139577786368
+      title: 違うurlが2個と、GIF動画を1個添付。
+-
+  cateogy: ハッシュタグ
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/881789437474095104
+      title: ハッシュタグが1つ
+    -
+      url: https://twitter.com/dummy_samples/status/881789495133093888
+      title: 同じハッシュタグが2つ
+    -
+      url: https://twitter.com/dummy_samples/status/881789560761405440
+      title: 違うハッシュタグが2つ
 -
   cateogy: リツイート
   tweets:
@@ -40,6 +75,9 @@
     -
       url: https://twitter.com/dummy_samples/status/880865965692526592
       title: 自分に対してメンション。テキストのみ。
+    -
+      url: https://twitter.com/dummy_samples/status/881787638725787652
+      title: プレーンテキストの後、末尾に自分に対してのメンション。
 -
   category: 画像
   tweets:
@@ -52,6 +90,9 @@
     -
       url: https://twitter.com/dummy_samples/status/880872127334760448
       title: png画像を1個添付。テキストはなし。画像情報(1920x1080 72 ppi sample.png)
+    -
+      url: https://twitter.com/dummy_samples/status/881786271525355521
+      title: 画像が3個添付。先頭からGIF, jpeg, png。
 -
   category: 動画
   tweets:
@@ -61,3 +102,15 @@
     -
       url: https://twitter.com/dummy_samples/status/881070367405514752
       title: MP4動画を1個添付。テキストはなし。動画情報(1920x1080 5秒 sample.mp4)
+-
+  category: その他
+  tweets:
+    -
+      url: https://twitter.com/dummy_samples/status/881790155115216897
+      title: プレーンテキスト、ハッシュタグ、url、自分へのメンションが1つずつ。gif, jpeg, png画像1つずつ添付。
+    -
+      url: https://twitter.com/dummy_samples/status/881790643281973248
+      title: プレーンテキスト、ハッシュタグ、url、自分へのメンションが1つずつ。GIF動画を1個添付。
+    -
+      url: https://twitter.com/dummy_samples/status/881790836597338112
+      title: プレーンテキスト、ハッシュタグ、url、自分へのメンションが1つずつ。MP4動画を1個添付。
