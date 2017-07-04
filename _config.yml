@@ -2,7 +2,7 @@ title: テストに使えるツイートリスト
 email: mitsuru793@gmail.com
 description: >
   テストに使えるツイートを作成しました。
-baseurl: "sample-tweets"
+baseurl: "/sample-tweets"
 url: ""
 twitter_username: mitsuru793
 github_username:  mitsuru793
